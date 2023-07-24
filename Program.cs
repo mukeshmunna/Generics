@@ -17,6 +17,8 @@ namespace FindMaximum
 
             maximum.FindMaxFloat(2.2f, 2.4f, 2.3f);
 
+            maximum.FindMaxString("a", "b", "c");
+
 
         }
 
