@@ -15,6 +15,8 @@ namespace FindMaximum
 
             maximum.FindMaxInteger(1, 2, 4);
 
+            maximum.FindMaxFloat(2.2f, 2.4f, 2.3f);
+
 
         }
 
