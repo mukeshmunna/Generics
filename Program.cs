@@ -1,29 +1,13 @@
-﻿
-namespace FindMaximum
+﻿using TestMaximum;
 
+internal class Program
 {
-
-    class Program
-
+    private static void Main(string[] args)
     {
 
-        static void Main(string[] args)
-
-        {
-
-            Operation maximum = new Operation();
-
-            maximum.FindMaxInteger(1, 2, 4);
-
-            maximum.FindMaxFloat(2.2f, 2.4f, 2.3f);
-
-            maximum.FindMaxString("a", "b", "c");
-
-
-        }
+        Console.WriteLine("Finding the maximum of three");
+        GenericClass<int> operation = new GenericClass<int>();
+        operation.FindMaximum(1, 2, 3);
 
     }
-
-
-
 }

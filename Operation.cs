@@ -8,7 +8,7 @@ namespace FindMaximum
 {
     public class Operation
     {
-        public void FindMaxInteger(int a, int b, int c)
+        public void FindMaximumInteger(int a, int b, int c)
 
         {
 
